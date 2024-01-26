@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.color-picker-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+#colorPicker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    appearance: none; /* Скрыть стандартный внешний вид вебкит-браузеров */
+}
+
+#colorInfo {
+    text-align: center;
+}
+
+#colorInfo p {
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+h1 {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
